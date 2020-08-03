@@ -46,6 +46,9 @@ body {
     overflow: hidden;
     padding: 0px 0;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header-logo{
@@ -161,25 +164,45 @@ body {
     flex-direction: row;  
     margin-bottom: 0px;
     margin-top: 0px;
-    height: auto;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .imagen{
     width: 40%;
 }
 
-.imagen-anne{
-    width: 50%;
+.contenedor-texto{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: auto;
+    width: 100%;   
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-.imagen1{
-    margin-top: 10px;
-    margin-left: 2%;
-    margin-bottom: 10px;
+.contenedor-imagen1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: auto;
+    width: 100%;   
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.imagen1{   
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 100%;
     width: 100%;
 }
 
@@ -199,12 +222,22 @@ body {
     margin-top: 0px;
     margin-bottom: 0;
     margin-left: 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
-    margin-left: 20%;
-    height:80%;
-    width: 60%;
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;  
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.404);
+}
+
+.contenedor-andrea{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    margin-left: 15%;
 }
 
 .imagen-bordes{
@@ -270,10 +303,10 @@ body {
 .capa{
     position: absolute;
     top: 0px;
-    width: 60%;
-    height: 80%;
+    width: 67%;
+    height: 86%;
     background: linear-gradient(to top, rgba(161, 140, 209, 0.404) 0%, rgba(251, 194, 235, 0.404) 100%);
-    margin-left: 20%;
+    margin-left: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,6 +324,14 @@ body {
     width: 48%;
     margin-top: 30px;
 
+}
+
+.contenedor-sobre-andrea{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0px 0;
+    margin: auto;
 }
 
 .contenedor-sobre-andrea .contenido-textos{
@@ -460,6 +501,7 @@ body {
 
 .contenedor-resumen{
     width: 60%;
+    height: auto;
     margin-left: 20%;
     overflow: hidden;
     display: flex;
@@ -478,6 +520,9 @@ body {
 }
 
 blockquote p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 28px;
     line-height: 31px;
     font-weight: 600;
