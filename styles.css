@@ -621,10 +621,166 @@ blockquote p{
     }
 }
 
-https://www.youtube.com/watch?v=ys2kaK8HgnA
-https://christianleis.com/contacto/
-https://alexcgdesign.com/
-https://www.youtube.com/watch?v=Q2imkhmhOFo
-https://www.youtube.com/watch?v=ivyIqmczxHU
-https://www.youtube.com/watch?v=85khyl7FLvE
-https://www.youtube.com/watch?v=HH_SMpxV7qQ
+.contactanos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contactanos1 span{
+    background: #566573;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+    margin-right: 5px;
+}
+
+.contactanos1-texto{
+    width: 100%;
+}
+
+.contactanos1-imagen{
+    width: 80%;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.contactanos2, .anuncios{
+    padding: 0px 5% 5% 5%;
+    width: 55%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 60px;
+    border-radius: 3%;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px rgb(233, 227, 227);
+    background-color: white;
+}
+
+.anuncios {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.form-label{
+    width: 100%;
+    margin-bottom: 15px;
+    color: #566573;
+    font-weight: bold;
+}
+
+.form-input{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(233, 227, 227);
+    border-color: transparent;
+    border-radius: 3%;
+    font-size: 15px;
+    outline-color: #566573;
+}
+
+.form-textarea{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(233, 227, 227);
+    border-color: transparent;
+    border-radius: 3%;
+    outline-color: #566573;
+    font-size: 15px;
+}
+
+.form-submit{
+    width: 15%;
+    height: 50px;
+    color: #566573;
+    font-weight: bolder;
+    font-size: initial;
+    border-color: #566573;
+    background-color: white;
+    border-radius: 10%;
+    outline: none;
+    margin: auto;
+    
+}
+
+
+.form-submit:hover {
+    background: #566573;
+    color:white
+}
+
+.form-icon{
+    color: #566573;
+    font-size: 25px;
+}
+
+.form-nuevo{
+    width: 10%;
+    height: 60px;
+    color: #566573;
+    border-color: #566573;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.form-nuevo:hover {
+    background: #566573;
+    color:white;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button a{
+    color:#566573;
+}
+
+button a:hover{
+    color:white;
+}
+
+.table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-collapse: separate;
+    border-spacing: 10px 30px;
+}
+
+.table-actualidad{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-collapse: separate;
+    border-spacing: 10px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.table-th{
+    color:white;
+    background-color: #566573; 
+    height: 30px;
+}
+

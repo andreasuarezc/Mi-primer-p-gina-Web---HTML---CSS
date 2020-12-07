@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Asuntos de género, Derecho constitucional y Actualidad">        
+        <title>ADA</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="img/icon.png">
+        <!-- Facebook Open Graph -->
+        <meta property="og:locale" content="es_ES"/>
+        <meta property="og:site_name" content="ADA"/>
+        <meta property="og:title" content="Contactanos"/>
+        <meta property="og:url" content="https://ada-web.000webhostapp.com/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:description" content="ADA - Asuntos de género, Derecho constitucional y Actualidad."/>
+        <meta property="og:image" content="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"/>
+        <!-- Google+ / Schema.org -->
+        <meta itemprop="name" content="ADA"/>
+        <meta itemprop="headline" content="Asuntos de género, Derecho constitucional y Actualidad"/>
+        <meta itemprop="description" content="Artículos y columnas de opinión que abordan temas de Asuntos de género, Derecho constitucional y Actualidad."/>
+        <!--Style help-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <img class= "header-logo" src="img/logo.png" alt="">
+            <nav class="style-header-nav">
+                <ul>
+                    <li class="style-header-li"><a class="style-header-a" href="home.html">Conócenos</a></li>
+                    <li class="style-header-li"><a class="style-header-a" href="asuntosGenero.html">Asuntos de género</a></li>
+                    <li class="style-header-li"><a class="style-header-a" href="derechoConstitucional.html">Derecho constitucional</a></li>
+                    <li class="style-header-li"><a class="style-header-a" href="actualidad.php">Actualidad</a></li>
+                    <li class="style-header-li"><a class="style-header-a" style="text-decoration: underline;" href="contactanos.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="contactanos1">
+                <div class="contactanos1-texto">
+                    <h1 class="titulo-section">Comunicate con nosotros</h1>
+                    <br>
+                    <p><span> </span>¿Te gusta el contenido de ADA?</p>
+                    <br>
+                    <p><span> </span>¿Tienes un artículo o ensayo que te gustaría compartir?</p>
+                    <br>
+                    <p>Dejanos un mensaje y permitenos conocer tu opinión.</p>
+                    <br>
+                    <p>En menos de 24 horas te estaremos dando respuesta.</p>
+                </div>
+                <div>
+                    <img class="contactanos1-imagen" src="img/email.svg" alt="">
+                </div>
+            </div>
+            <div class="contactanos2">
+                <h1 class="titulo-section">Envia tu mensaje ahora!</h1>
+                <form class="form" action="contactanos.php" method="POST">                    
+                    <div class="form-label">
+                        <label>Nombre</label>
+                        <br>
+                        <input type="text" class="form-input" name="nombre">
+                    </div>
+                    <div class="form-label">
+                        <label for="inputcorreo">Correo</label>
+                        <br>
+                        <input type="email" class="form-input" id="inputcorreo" name="correo">
+                    </div>
+                    <div class="form-label">
+                        <label for="inputasunto">Asunto</label>
+                        <br>
+                        <input type="text" class="form-input" id="inputasunto" name="asunto">
+                    </div>
+                    <div class="form-label">
+                        <label for="inputmensaje">Mensaje</label>
+                        <br>
+                        <textarea rows="6" cols="30" class="form-textarea" name="mensaje"> </textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="form-submit" name="submit">Enviar</button>
+                </form>
+            </div>                   
+        </main>
+        <footer class="footer-cont">
+            <div class="brand">
+                <h2>Creado por: Andrea Suárez</h2>
+                <div class=" social-media1">
+                    <a href="https://github.com/andreasuarezc"class="icon1" target="_blank">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                    <a href="https://linkedin.com/in/andrea-suárez-cardona"class="icon1" target="_blank">
+                        <i class='bx bxl-linkedin-square' ></i>
+                    </a>   
+                </div>             
+            </div>         
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
